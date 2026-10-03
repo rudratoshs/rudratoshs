@@ -11,12 +11,11 @@ import os
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 TARGET = os.environ.get("SOC_README", os.path.join(HERE, "README.md"))
-SOC_IMG = os.environ.get("SOC_IMG", "output/soc.svg")
-PET_IMG = os.environ.get("PET_IMG", "output/pet.svg")
-
 BLOCKS = [
-    ("SOC", SOC_IMG, "Security Operations Center — live from GitHub activity", 920),
-    ("PET", PET_IMG, "Commit pet — fed by my GitHub streak", 640),
+    ("GRID", os.environ.get("GRID_IMG", "output/grid.svg"),
+     "threat-grid — an isometric datacenter, one rack per repo, under live defense", 1000),
+    ("PET", os.environ.get("PET_IMG", "output/pet.svg"),
+     "Commit pet — fed by my GitHub streak", 640),
 ]
 
 

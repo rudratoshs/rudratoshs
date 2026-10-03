@@ -159,6 +159,11 @@ def main():
         "feed": feed,
         "top_repos": [{"name": r["name"], "stars": r["stargazerCount"]}
                       for r in repos[:5] if r["stargazerCount"] > 0],
+        "repos": [{"name": r["name"], "stars": r["stargazerCount"],
+                   "forks": r["forkCount"],
+                   "lang": (r["primaryLanguage"] or {}).get("name"),
+                   "color": (r["primaryLanguage"] or {}).get("color") or "#39d353"}
+                  for r in repos],
         "calendar": [{"date": d["date"], "count": d["contributionCount"]} for d in days],
     }
     out = os.path.join(os.path.dirname(__file__), "data.json")
