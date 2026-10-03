@@ -1,0 +1,45 @@
+name: SOC console
+
+on:
+  schedule:
+    - cron: "17 5 * * *"      # daily at 05:17 UTC
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["fetch.py", "render.py", "readme.py", ".github/workflows/soc.yml"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: soc-console
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate console
+        env:
+          # A stock GITHUB_TOKEN covers public activity. For private
+          # contributions, add a PAT (read:user) as the GH_TOKEN secret.
+          GH_TOKEN: ${{ secrets.GH_TOKEN || secrets.GITHUB_TOKEN }}
+          SOC_LOGIN: ${{ github.repository_owner }}
+        run: |
+          python fetch.py
+          python render.py
+          python render_pet.py
+          python readme.py
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --quiet --staged || git commit -m "chore: refresh SOC console"
+          git push

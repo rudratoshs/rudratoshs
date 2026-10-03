@@ -1,0 +1,4 @@
+data.json
+output/_*
+*.png
+__pycache__/
