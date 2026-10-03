@@ -39,7 +39,7 @@
     <text font-size="15" fill="#00ff9c" class="flick">rudratoshs@soc:~# ./threat-monitor --live<tspan class="blink" fill="#00ff9c">▊</tspan></text>
   </g>
   <g transform="translate(898,34)" text-anchor="end">
-    <text font-size="12" fill="#9fb3c8"><tspan fill="#2ea043" class="pulse">●</tspan>  STATUS: MONITORING   ·   2026-10-03 05:02 UTC</text>
+    <text font-size="12" fill="#9fb3c8"><tspan fill="#2ea043" class="pulse">●</tspan>  STATUS: MONITORING   ·   2026-10-03 05:19 UTC</text>
   </g>
   <line x1="22" y1="48" x2="898" y2="48" stroke="#16212e"/>
 
@@ -55,7 +55,7 @@
     <rect width="165.6" height="92" rx="6" fill="#0e1726" stroke="#16212e"/>
     <rect width="3" height="92" rx="1.5" fill="#35d6ed"/>
     <text x="14" y="22" font-size="10" letter-spacing="1.2" fill="#5a6e82">PATCHES DEPLOYED</text>
-    <text x="14" y="60" font-size="32" font-weight="700" fill="#35d6ed">14</text>
+    <text x="14" y="60" font-size="32" font-weight="700" fill="#35d6ed">2</text>
     <text x="14" y="80" font-size="10" fill="#33475b">merged</text>
   </g>
 
@@ -63,7 +63,7 @@
     <rect width="165.6" height="92" rx="6" fill="#0e1726" stroke="#16212e"/>
     <rect width="3" height="92" rx="1.5" fill="#9fb3c8"/>
     <text x="14" y="22" font-size="10" letter-spacing="1.2" fill="#5a6e82">SYSTEMS DEFENDED</text>
-    <text x="14" y="60" font-size="32" font-weight="700" fill="#9fb3c8">66</text>
+    <text x="14" y="60" font-size="32" font-weight="700" fill="#9fb3c8">11</text>
     <text x="14" y="80" font-size="10" fill="#33475b">42★</text>
   </g>
 
@@ -79,8 +79,8 @@
     <rect width="165.6" height="92" rx="6" fill="#0e1726" stroke="#16212e"/>
     <rect width="3" height="92" rx="1.5" fill="#00ff9c"/>
     <text x="14" y="22" font-size="10" letter-spacing="1.2" fill="#5a6e82">INTEL REPORTS</text>
-    <text x="14" y="60" font-size="32" font-weight="700" fill="#00ff9c">39</text>
-    <text x="14" y="80" font-size="10" fill="#33475b">74/yr</text>
+    <text x="14" y="60" font-size="32" font-weight="700" fill="#00ff9c">40</text>
+    <text x="14" y="80" font-size="10" fill="#33475b">75/yr</text>
   </g>
 
   <g transform="translate(22,172)">
@@ -163,45 +163,45 @@
   </g>
 
   <g transform="translate(608,216)">
-    <text font-size="11" fill="#9fb3c8">TypeScrip</text>
+    <text font-size="11" fill="#9fb3c8">Python</text>
     <rect x="72" y="-9" width="196" height="9" rx="2" fill="#070b10" stroke="#16212e"/>
-    <rect class="bar" style="animation-delay:0.00s" x="72" y="-9" width="196.0" height="9" rx="2" fill="#3178c6"/>
-    <text x="274" y="0" font-size="10" fill="#5a6e82">52%</text>
+    <rect class="bar" style="animation-delay:0.00s" x="72" y="-9" width="196.0" height="9" rx="2" fill="#3572A5"/>
+    <text x="274" y="0" font-size="10" fill="#5a6e82">87%</text>
   </g>
 
   <g transform="translate(608,238)">
     <text font-size="11" fill="#9fb3c8">HTML</text>
     <rect x="72" y="-9" width="196" height="9" rx="2" fill="#070b10" stroke="#16212e"/>
-    <rect class="bar" style="animation-delay:0.10s" x="72" y="-9" width="60.0" height="9" rx="2" fill="#e34c26"/>
-    <text x="274" y="0" font-size="10" fill="#5a6e82">16%</text>
+    <rect class="bar" style="animation-delay:0.10s" x="72" y="-9" width="19.8" height="9" rx="2" fill="#e34c26"/>
+    <text x="274" y="0" font-size="10" fill="#5a6e82">9%</text>
   </g>
 
   <g transform="translate(608,260)">
-    <text font-size="11" fill="#9fb3c8">PHP</text>
+    <text font-size="11" fill="#9fb3c8">JavaScrip</text>
     <rect x="72" y="-9" width="196" height="9" rx="2" fill="#070b10" stroke="#16212e"/>
-    <rect class="bar" style="animation-delay:0.20s" x="72" y="-9" width="24.5" height="9" rx="2" fill="#4F5D95"/>
-    <text x="274" y="0" font-size="10" fill="#5a6e82">6%</text>
+    <rect class="bar" style="animation-delay:0.20s" x="72" y="-9" width="4.0" height="9" rx="2" fill="#f1e05a"/>
+    <text x="274" y="0" font-size="10" fill="#5a6e82">2%</text>
   </g>
 
   <g transform="translate(608,282)">
-    <text font-size="11" fill="#9fb3c8">Python</text>
+    <text font-size="11" fill="#9fb3c8">TypeScrip</text>
     <rect x="72" y="-9" width="196" height="9" rx="2" fill="#070b10" stroke="#16212e"/>
-    <rect class="bar" style="animation-delay:0.30s" x="72" y="-9" width="22.3" height="9" rx="2" fill="#3572A5"/>
-    <text x="274" y="0" font-size="10" fill="#5a6e82">6%</text>
+    <rect class="bar" style="animation-delay:0.30s" x="72" y="-9" width="4.0" height="9" rx="2" fill="#3178c6"/>
+    <text x="274" y="0" font-size="10" fill="#5a6e82">1%</text>
   </g>
 
   <g transform="translate(608,304)">
-    <text font-size="11" fill="#9fb3c8">Shell</text>
+    <text font-size="11" fill="#9fb3c8">Jupyter N</text>
     <rect x="72" y="-9" width="196" height="9" rx="2" fill="#070b10" stroke="#16212e"/>
-    <rect class="bar" style="animation-delay:0.40s" x="72" y="-9" width="17.7" height="9" rx="2" fill="#89e051"/>
-    <text x="274" y="0" font-size="10" fill="#5a6e82">5%</text>
+    <rect class="bar" style="animation-delay:0.40s" x="72" y="-9" width="4.0" height="9" rx="2" fill="#DA5B0B"/>
+    <text x="274" y="0" font-size="10" fill="#5a6e82">1%</text>
   </g>
 
   <g transform="translate(608,326)">
-    <text font-size="11" fill="#9fb3c8">MDX</text>
+    <text font-size="11" fill="#9fb3c8">Makefile</text>
     <rect x="72" y="-9" width="196" height="9" rx="2" fill="#070b10" stroke="#16212e"/>
-    <rect class="bar" style="animation-delay:0.50s" x="72" y="-9" width="14.0" height="9" rx="2" fill="#fcb32c"/>
-    <text x="274" y="0" font-size="10" fill="#5a6e82">4%</text>
+    <rect class="bar" style="animation-delay:0.50s" x="72" y="-9" width="4.0" height="9" rx="2" fill="#427819"/>
+    <text x="274" y="0" font-size="10" fill="#5a6e82">0%</text>
   </g>
 
   <g transform="translate(592,364)">
