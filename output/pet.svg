@@ -38,7 +38,7 @@
     <clipPath id="lcd"><rect x="60" y="60" width="520" height="210" rx="6"/></clipPath>
     <g clip-path="url(#lcd)">
       <rect class="scanl" x="60" y="40" width="520" height="14" fill="#000" opacity="0.04"/>
-<text x="74" y="84" font-size="12" fill="#2f3b1b" text-anchor="start">PYTHON · JUNIOR</text>
+<text x="74" y="84" font-size="12" fill="#2f3b1b" text-anchor="start">TYPESCRIPT · JUNIOR</text>
 <text x="566" y="84" font-size="12" fill="#2f3b1b" text-anchor="end">LVL 8</text>
 <line x1="74" y1="92" x2="566" y2="92" stroke="#2f3b1b" stroke-opacity="0.35"/>
 <g class="bob"><line x1="320.0" y1="117.0" x2="320.0" y2="101.0" stroke="#2f3b1b" stroke-width="3"/><circle cx="320.0" cy="99.0" r="4" fill="#2f3b1b"/><ellipse cx="320.0" cy="171.0" rx="54" ry="49.68" fill="#2f3b1b"/><ellipse cx="320.0" cy="171.0" rx="48" ry="43.68" fill="#c7d49b"/><ellipse cx="295.7" cy="219.6" rx="10" ry="7" fill="#2f3b1b"/><ellipse cx="344.3" cy="219.6" rx="10" ry="7" fill="#2f3b1b"/><g class="blink" transform="translate(0,0)"><ellipse cx="304.0" cy="165.0" rx="4" ry="6" fill="#2f3b1b" transform="translate(304.0 165.0) scaleY(1) translate(-304.0 -165.0)"/><ellipse cx="336.0" cy="165.0" rx="4" ry="6" fill="#2f3b1b" transform="translate(336.0 165.0) scaleY(1) translate(-336.0 -165.0)"/></g><path d="M304.0,187.0 q16,16 32,0" stroke="#2f3b1b" stroke-width="3" fill="none" stroke-linecap="round"/></g>
