@@ -1,4 +1,1 @@
-data.json
-output/_*
-*.png
-__pycache__/
+node_modules/

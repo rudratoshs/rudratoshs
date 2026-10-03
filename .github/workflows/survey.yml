@@ -1,0 +1,20 @@
+name: Deep Field Survey
+on:
+  schedule: [{ cron: '17 3 * * *' }]
+  workflow_dispatch:
+  push: { paths: ['data.json', 'scripts/**'] }
+permissions: { contents: write }
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 20 }
+      - run: node scripts/generate.mjs
+        env: { GH_TOKEN: '${{ secrets.SURVEY_TOKEN }}' }
+      - run: |
+          git config user.name "survey-bot"
+          git config user.email "survey-bot@users.noreply.github.com"
+          git add svg
+          git diff --cached --quiet || (git commit -m "survey: daily render" && git push)

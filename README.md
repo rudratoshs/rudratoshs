@@ -1,25 +1,18 @@
-<!-- GRID:START -->
+<p align="center"><img src="./svg/hero.svg" width="100%" alt="RUDRA-01 — Rudratosh Shastri, AI-agent security engineer. A planet ringed by 53 weeks of contributions."></p>
+
 <p align="center">
-  <img src="output/grid.svg" alt="threat-grid — an isometric datacenter, one rack per repo, under live defense" width="1000">
+  <a href="https://github.com/rudratoshs"><img src="./svg/link-github.svg" height="40" alt="GitHub"></a>
+  <a href="https://dev.to/rudratosh"><img src="./svg/link-dev.svg" height="40" alt="DEV"></a>
+  <a href="https://www.linkedin.com/in/rudratosh-shastri"><img src="./svg/link-linkedin.svg" height="40" alt="LinkedIn"></a>
+  <a href="https://x.com/jack_reacherrr"><img src="./svg/link-x.svg" height="40" alt="X"></a>
 </p>
-<!-- GRID:END -->
 
-<!-- PET:START -->
-<p align="center">
-  <img src="output/pet.svg" alt="Commit pet — fed by my GitHub streak" width="640">
-</p>
-<!-- PET:END -->
+<p align="center"><a href="https://github.com/rudratoshs?tab=repositories"><img src="./svg/missions.svg" width="100%" alt="Flagship missions: buried-injections, taintgate, poisoned-pages"></a></p>
 
-### whoami
+<p align="center"><img src="./svg/ops.svg" width="100%" alt="External systems reached: promptfoo, Windows-MCP, mastra, probity"></p>
 
-Engineer working on **AI-agent security** — benchmarks and guardrails for the ways agents get
-tricked, and writing about the honest ways they break.
+<p align="center"><img src="./svg/spectrum.svg" width="100%" alt="Languages and tools"></p>
 
-- 🛡️ [buried-injections](https://github.com/rudratoshs/buried-injections) — 10 prompt-injection detectors vs 629 real agent attacks
-- 🚦 [taintgate](https://github.com/rudratoshs/taintgate) — a provenance-aware policy gate for agent tool calls
-- ✍️ writing at [dev.to/rudratosh](https://dev.to/rudratosh)
+<p align="center"><a href="https://dev.to/rudratosh"><img src="./svg/transmissions.svg" width="100%" alt="Latest articles on DEV"></a></p>
 
-<sub>The scene above is a self-updating animated SVG built from my own GitHub activity: an isometric
-datacenter with one server rack per repository, colour-coded by language, defended by a live firewall —
-plus a commit-fed virtual pet. Both refresh daily, no human in the loop.
-Source + build-your-own: <a href="https://github.com/rudratoshs/rudratoshs">this repo</a>.</sub>
+<p align="center"><img src="./svg/footer.svg" width="100%" alt="End of transmission"></p>

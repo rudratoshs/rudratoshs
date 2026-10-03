@@ -1,0 +1,50 @@
+{
+  "user": "rudratoshs",
+  "world": "RUDRA-01",
+  "name": ["Rudratosh", "Shastri"],
+  "callsign": "JACK-REACHERRR",
+  "role": "AI-agent security engineer",
+  "role2": "guardrails · benchmarks · provenance",
+  "sector": "AI · SECURITY",
+  "stats": [
+    { "v": "74", "l": "CONTRIBS", "c": "#5bd6ff" },
+    { "v": "66", "l": "SYSTEMS", "c": "#e6ecf7" },
+    { "v": "42", "l": "STARS", "c": "#ffce73" },
+    { "v": "10", "l": "LANGUAGES", "c": "#a988ff" }
+  ],
+  "projects": [
+    { "n": "buried-injections", "cls": "FLAGSHIP WORLD", "s": 28, "c": "#5bd6ff", "br": "10 prompt-injection detectors stress-tested against 629 real AgentDojo attacks. None caught most without blocking real traffic.", "tech": ["Python", "AgentDojo"] },
+    { "n": "taintgate", "cls": "ACTIVE MISSION", "s": 2, "c": "#a988ff", "br": "A provenance-aware policy gate for agent tool calls — blocks actions built from untrusted input, not just suspicious text.", "tech": ["Python", "MCP"] },
+    { "n": "poisoned-pages", "cls": "RECON", "s": 2, "c": "#ffce73", "br": "A RAG-poisoning study: 6 of 7 poisoned pages stopped, the 7th fooled a frontier model. Where knowledge bases quietly break.", "tech": ["Python", "RAG"] }
+  ],
+  "ops": [
+    { "r": "promptfoo", "nt": "LLM eval & red-team", "pr": "pr#11302", "add": 122, "del": 2 },
+    { "r": "Windows-MCP", "nt": "MCP server", "pr": "pr#434", "add": 65, "del": 1 },
+    { "r": "mastra", "nt": "agent framework", "pr": "pr#25724", "add": 32, "del": 0 },
+    { "r": "probity", "nt": "integrity tooling", "pr": "pr#84", "add": 141, "del": 20 }
+  ],
+  "langs": [
+    { "n": "TypeScript", "p": 52, "c": "#5bd6ff" },
+    { "n": "HTML", "p": 16, "c": "#ff7f6e" },
+    { "n": "Python", "p": 6, "c": "#6fb0ff" },
+    { "n": "PHP", "p": 6, "c": "#a988ff" },
+    { "n": "Shell", "p": 5, "c": "#54f0b2" },
+    { "n": "MDX", "p": 4, "c": "#ffce73" }
+  ],
+  "instr": ["Next.js", "FastAPI", "PostgreSQL", "Supabase", "Docker", "GitHub Actions", "Payload", "Prisma", "Tailwind", "HuggingFace"],
+  "txSource": "DEV.TO/RUDRATOSH",
+  "tx": [
+    { "d": "10-01", "ch": "GUARDRAIL", "ti": "Your AI guardrail is green. It's also catching nothing." },
+    { "d": "09-29", "ch": "DETECTOR", "ti": "Meta's prompt-injection detector caught 1% of real agent attacks." },
+    { "d": "09-28", "ch": "CONTEXT", "ti": "Your GitHub MCP server costs 55,000 tokens before a word." },
+    { "d": "09-26", "ch": "FOUNDER", "ti": "I Almost Built a Startup This Week. The Evidence Said No." },
+    { "d": "09-24", "ch": "BENCHMARK", "ti": "I tested 10 prompt-injection detectors on 629 real attacks." }
+  ],
+  "links": [
+    { "id": "github", "k": "GITHUB", "v": "rudratoshs", "href": "https://github.com/rudratoshs" },
+    { "id": "dev", "k": "DEV", "v": "rudratosh", "href": "https://dev.to/rudratosh" },
+    { "id": "linkedin", "k": "LINKEDIN", "v": "rudratosh-shastri", "href": "https://www.linkedin.com/in/rudratosh-shastri" },
+    { "id": "x", "k": "X", "v": "@jack_reacherrr", "href": "https://x.com/jack_reacherrr" }
+  ],
+  "footer": "66 systems charted · 42 stars collected · 0 anomalies · auto-refreshed daily"
+}
