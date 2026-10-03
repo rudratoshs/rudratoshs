@@ -39,7 +39,7 @@
     <text font-size="15" fill="#00ff9c" class="flick">rudratoshs@soc:~# ./threat-monitor --live<tspan class="blink" fill="#00ff9c">▊</tspan></text>
   </g>
   <g transform="translate(898,34)" text-anchor="end">
-    <text font-size="12" fill="#9fb3c8"><tspan fill="#2ea043" class="pulse">●</tspan>  STATUS: MONITORING   ·   2026-10-03 05:19 UTC</text>
+    <text font-size="12" fill="#9fb3c8"><tspan fill="#2ea043" class="pulse">●</tspan>  STATUS: MONITORING   ·   2026-10-03 05:20 UTC</text>
   </g>
   <line x1="22" y1="48" x2="898" y2="48" stroke="#16212e"/>
 
