@@ -62,8 +62,8 @@ text{font-family:'JBM',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
 <text x="744" y="334" font-size="8.5" letter-spacing="1.4" fill="#8b97b0">LANGUAGES</text></g>
 <g class="fade" style="animation-delay:1.4s"><circle class="pulse" cx="490" cy="378" r="3.5" fill="#54f0b2"/>
 <text x="500" y="382" font-size="10" letter-spacing="2" fill="#54f0b2">SURVEY ACTIVE</text>
-<text x="616" y="382" font-size="10" letter-spacing="1.5" fill="#8b97b0">STARDATE 2026.7628</text>
-<text x="486" y="402" font-size="10" letter-spacing="1.5" fill="#56637f">SECTOR AI · SECURITY · SYNCED 2026-10-05</text></g>
+<text x="616" y="382" font-size="10" letter-spacing="1.5" fill="#8b97b0">STARDATE 2026.7656</text>
+<text x="486" y="402" font-size="10" letter-spacing="1.5" fill="#56637f">SECTOR AI · SECURITY · SYNCED 2026-10-06</text></g>
 <rect class="scan" width="840" height="90" fill="url(#scan)"/>
 <rect width="840" height="440" fill="url(#lines)"/>
 </g>
